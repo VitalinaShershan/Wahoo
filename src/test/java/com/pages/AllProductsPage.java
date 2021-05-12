@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.List;
 
 public class AllProductsPage extends CommonMethods {
-
+//qqq
     @FindBy(xpath = "//h2[text() = 'All Products']")
     public WebElement allProductsSign;
 
