@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "src/test/resources/features",
         glue = "com/stepdefinitions",
         dryRun = false,
-        tags = "@adjustCart",
+        tags = "@regression",
         monochrome = false,
         plugin = {"pretty",
                 "html:target/cucumber-default-reports",
